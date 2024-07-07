@@ -15,7 +15,8 @@
     "eslint-plugin-react-compiler": "^0.0.0-experimental-0998c1e-20240625",
     "prettier": "^3.3.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "rickmortyapi": "^2.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -42,7 +43,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{ts,tsx}": [
+    "**/*.{ts,tsx, css}": [
       "npm run lint",
       "npm run format:fix"
     ]
